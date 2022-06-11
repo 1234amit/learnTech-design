@@ -1,0 +1,82 @@
+/*
+====================================================================================================================================================================
+                                                    Start Global Properties
+====================================================================================================================================================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background: #172035;
+}
+
+img#logo { 
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+nav{
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 2em;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+    padding: 20px;
+}
+
+nav a:hover{
+    background: #09568d;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+
+button{
+    width: 20%;
+    height: 50px;
+    background: #172035;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+button:hover{
+    background: #2E86C1;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Global Properties
+====================================================================================================================================================================
+*/

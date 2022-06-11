@@ -1,0 +1,59 @@
+/*
+====================================================================================================================================================================
+                                                    Start Tech Support Page
+====================================================================================================================================================================
+*/
+
+.computersupport, .computersupport2, .computersupport3{
+    display: flex;
+    gap: 50px;
+    margin: 0px 10% 50px 10%;
+}
+
+.computersupport img, .computersupport2 img, .computersupport3 img{
+    box-shadow: .4rem .4rem 1rem #111,
+    -.4rem -.4rem 1rem #333;
+    border-radius: .5rem;
+}
+
+.text h1, .text2 h1, .text3 h1{
+    font-size: 40px;
+}
+
+
+.text p, .text2 p, .text3 p{
+    font-size: 30px;
+}
+
+.text button, .text2 button, .text3 button{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+ 
+
+
+/* footer section start here */
+footer {
+    width: 100%;
+    height: 80px;
+    background: #172035;
+    position: absolute;
+    top: 1400px;
+    left: 0;
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+    font-size: 1em;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Tech Support Page
+====================================================================================================================================================================
+*/
